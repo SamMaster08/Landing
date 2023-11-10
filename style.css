@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive, "Oswald", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(58, 54, 52);
+    height: 100px;
+    width: 100%;    
+    color: rgb(240, 240, 255);
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+h1{
+    font-family: 'Black Ops One';
+    font-size: 100px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(96, 90, 87);
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-image: url(./imagenes/FondoHiro.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color:  rgb(96, 90, 87);
+    padding: 20px;
+    height: 50%;
+    width: 80%;
+    border-radius: 40px;
+    border-style: double;
+    /* border-color: color rgb(240, 0, 0); */
+}
+
+.slaider::-webkit-scrollbar{
+    width: 7px;
+}
+.slaider::-webkit-scrollbar-thumb{
+    background-color:  rgb(60, 56, 54);
+    border-radius: 5px;
+}
+
+#Deportivos{
+    background-image: url(./imagenes/fondo\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.containerlambo{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.lambo {
+    width: 350px;
+}
+
+.lambo-uno{
+    width: 350px;
+}
+
+#Motos{
+    background-image: url(./imagenes/fondo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.suzuki{
+   width: 350px;
+}
+
+.suzukidos{
+    width: 350px;
+}
+
+.containermoto{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#Clasicos{
+    background-image: url(./imagenes/fondo\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ford{
+    width: 350px;
+}
+
+.containerford{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#Lujosos{
+    background-image: url(./imagenes/fondo\ 4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.BMW{
+    width: 350px;
+}
+
+.containerBMW{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+img{
+    border-radius: 20%  ;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: 'Black Ops One';
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(58, 57, 56);
+}
